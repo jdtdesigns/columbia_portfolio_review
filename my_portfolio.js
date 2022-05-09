@@ -29,7 +29,7 @@ $('button').click(function () {
 });
 
 /**
-* For comparison, this vanilla javascript code is the same as using $('button').siblings('p').css('background', 'red');
+* For comparison, this vanilla javascript code is the same as the code from lines 25-29. Much simpler and condensed. 
 */
 // const button = document.querySelector('button');
 
