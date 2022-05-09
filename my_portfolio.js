@@ -28,6 +28,26 @@ $('button').click(function () {
   $('.my-paragraph').parent().css('background', 'red');
 });
 
+/**
+* For comparison, this vanilla javascript code is the same as using $('button').siblings('p').css('background', 'red');
+*/
+// const button = document.querySelector('button');
+
+// button.addEventListener('click', function () {
+//   const p = document.querySelector('.my-paragraph');
+//   const p_parent = p.parentNode;
+//   const p_siblings = p_parent.children;
+
+//   for (var i = 0; i < p_siblings.length; i++) {
+//     const current_sib = p_siblings[i];
+   
+//     if (current_sib !== p && current_sib.tagName === 'P') {
+//       current_sib.style.background = 'red';
+//     }
+//   }
+// });
+
+
 // We create functions using the function keyword and a custom name, followed by 
 // opening/closing parens and opening/closing curly braces
 
