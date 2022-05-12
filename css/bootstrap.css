@@ -1,0 +1,24 @@
+h2 {
+  font-size: 2rem;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.col-sm {
+  flex: 0;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+

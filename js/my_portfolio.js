@@ -17,16 +17,16 @@ var name = 'JD'; // string
 
 // $('body').html('<div>blah</div>');
 
-$('.top-row h2').text('something different').css('color', 'red');
+// $('.top-row h2').text('something different').css('color', 'red');
 
-$('p').text(`some text`);
+// $('p').text(`some text`);
 
-// Notice how I didn't use a # - id css selector. Since we only had one button on the page, I just selected it using the css selector "button"
-$('button').click(function () {
-  // $(this).css('color', 'purple');
-  // $('.my-paragraph').siblings('p').css('background', 'red');
-  $('.my-paragraph').parent().css('background', 'red');
-});
+// // Notice how I didn't use a # - id css selector. Since we only had one button on the page, I just selected it using the css selector "button"
+// $('button').click(function () {
+//   // $(this).css('color', 'purple');
+//   // $('.my-paragraph').siblings('p').css('background', 'red');
+//   $('.my-paragraph').parent().css('background', 'red');
+// });
 
 /**
 * For comparison, this vanilla javascript code is the same as the code from lines 25-29. Much simpler and condensed. 

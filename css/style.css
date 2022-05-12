@@ -14,6 +14,10 @@ a {
   position: relative;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 /* GLOBAL CLASSES */
 /* .top-row h2>span:nth-child(1) {
   backround: red;
